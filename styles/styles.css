@@ -1,0 +1,43 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container > li {
+  margin: 1.5rem;
+}
+
+.img-size {
+  height: 20rem;
+  width: 20rem;
+}
+
+.img-center {
+  display: block;
+  margin: 0 auto;
+}
+
+.font-size {
+  font-size: 1.5rem;
+}
+
+.vertical-margin {
+  margin: 2rem 0;
+}
+
+.margin-bottom {
+  margin-bottom: 2rem;
+}
+
+.margin-li {
+  margin-bottom: .2rem;
+}
